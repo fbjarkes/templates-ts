@@ -5,7 +5,7 @@ interface Data {
 }
 
 export const runApp = async () => {
-    const foo = 'bar';
+    const foo = "bar";
     const bar = 'bar'
     console.log(foo);
     return 'Hello World!';
