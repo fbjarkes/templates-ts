@@ -1,16 +1,13 @@
 {
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:prettier/recommended",
-        "prettier/@typescript-eslint"
+        "prettier"
     ],
     "parser": "@typescript-eslint/parser",
     "plugins": ["@typescript-eslint", "prettier"],
-    "rules": {
-        "prettier/prettier": 2,
-        "@typescript-eslint/no-unused-vars": 1,
-        "@typescript-eslint/no-explicit-any": 1
+    "rules": {        
+        "@typescript-eslint/no-explicit-any": 1,
+        "no-unused-vars": 1
     },
     "globals": {
         "console": "writable"
